@@ -18,6 +18,15 @@ begin
     result:=365;
 end;
 
+function DaysInYearRange(n:integer):integer;
+begin
+  for var i:=1 to n do 
+  begin
+    var k:=readinteger('Сколько дней');
+    result+=k;
+  end;
+end;
+
 begin
   
 end.
