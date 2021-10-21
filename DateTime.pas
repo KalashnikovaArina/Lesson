@@ -7,9 +7,6 @@ else
 result:=false;
 end;
 
-function SecondsInMinute(n:integer):integer;
-result:=n*60;
-
 begin
   
 end.
