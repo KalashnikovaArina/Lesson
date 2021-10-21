@@ -7,6 +7,17 @@ else
 result:=false;
 end;
 
+function SecondsInMinute(n:integer):integer;
+result:=n*60;
+
+function DaysInYear(n:integer):integer;
+begin
+  if IsLeapYear(n) then
+    result:=364
+  else
+    result:=365;
+end;
+
 begin
   
 end.
